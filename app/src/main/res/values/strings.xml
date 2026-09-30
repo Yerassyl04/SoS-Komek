@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SOS Көмек</string>
+
+    <!-- Common -->
+    <string name="add">Добавить</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="configure">Настроить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="next">Далее</string>
+    <string name="ok">ОК</string>
+    <string name="open">Открыть</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">Сохранено</string>
+    <string name="send">Отправить</string>
+    <string name="sending">Отправка…</string>
+    <string name="not_specified">Не указано</string>
+    <string name="filters">Фильтры</string>
+    <string name="my_location">Моё местоположение</string>
+
+    <!-- Tabs -->
+    <string name="tab_sos">SOS</string>
+    <string name="tab_map">Карта</string>
+    <string name="tab_profile">Профиль</string>
+
+    <!-- Disclaimers -->
+    <string name="disclaimer_short">Приложение не заменяет экстренные службы. При угрозе жизни звоните 112, 102 или 103.</string>
+    <string name="disclaimer_full">«SOS Көмек» помогает быстро предупредить близких, но не заменяет полицию, скорую помощь и другие экстренные службы. При угрозе жизни и здоровью всегда звоните 112, 102 или 103.</string>
+    <string name="version_disclaimer">SOS Көмек 1.0.0. Приложение не является официальной экстренной службой и не гарантирует доставку сообщений: она зависит от оператора связи, баланса и сети.</string>
+
+    <!-- SOS screen -->
+    <string name="sos_title">Нужна помощь?</string>
+    <string name="sos_hold_hint">Удерживайте кнопку 3 секунды. Затем выберите причину — или нажмите «Отмена».</string>
+    <string name="sos_hold_short">Удерживайте\n3 секунды</string>
+    <string name="sos_hold_countdown">Держите… %1$d</string>
+    <string name="sos_sending">Отправка…</string>
+    <string name="sos_a11y">Кнопка SOS. Удерживайте 3 секунды, чтобы отправить тревогу</string>
+    <string name="sos_active_banner">Тревога активна. Откройте экран статуса помощи.</string>
+    <string name="sos_already_sent">Тревога уже отправлена. Открываем статус.</string>
+    <string name="warn_no_contacts">Нет доверенных контактов — SOS-сообщения некому отправить.</string>
+    <string name="warn_permissions">Не все разрешения выданы: геолокация и SMS нужны для SOS.</string>
+    <string name="quick_call_title">Экстренные номера</string>
+    <string name="quick_call_hint">Нажатие открывает набор номера — вызов вы подтверждаете сами.</string>
+    <string name="service_police">Полиция</string>
+    <string name="service_ambulance">Скорая помощь</string>
+    <string name="service_fire">Пожарная служба</string>
+    <string name="service_112">Единая служба спасения</string>
+    <string name="service_111">Защита семьи, женщин и детей</string>
+
+    <!-- Reason dialog -->
+    <string name="reason_title">Что случилось?</string>
+    <string name="reason_subtitle">Выберите причину — доверенные контакты сразу получат сообщение.</string>
+    <string name="reason_harassment">Харассмент или преследование</string>
+    <string name="reason_harassment_hint">Будет предложен звонок в полицию 102</string>
+    <string name="reason_violence">Угроза или физическое насилие</string>
+    <string name="reason_violence_hint">Будет предложен звонок в полицию 102</string>
+    <string name="reason_medical">Медицинская помощь</string>
+    <string name="reason_medical_hint">Будет предложен звонок в скорую 103</string>
+    <string name="reason_share_location">Отправить контактам моё текущее местоположение</string>
+    <string name="repeat_title">Тревога уже отправлялась</string>
+    <string name="repeat_text">Вы отправили SOS менее 5 минут назад. Отправить ещё одну тревогу?</string>
+    <string name="repeat_confirm">Да, отправить</string>
+
+    <!-- Status screen -->
+    <string name="status_title">Статус помощи</string>
+    <string name="status_none">Активной тревоги нет. Вы в безопасности.</string>
+    <string name="status_sending">Отправляем тревогу…</string>
+    <string name="status_sent">Тревога отправлена</string>
+    <string name="step_location_progress">Определяем геолокацию…</string>
+    <string name="step_location_done">Геолокация получена</string>
+    <string name="step_location_failed">Геолокация недоступна</string>
+    <string name="step_location_failed_hint">Включите GPS. Сообщение отправлено без координат.</string>
+    <string name="step_location_skipped">Геолокация не передаётся</string>
+    <string name="step_location_skipped_hint">Вы не дали согласие на передачу местоположения.</string>
+    <string name="step_contacts_pending">Ожидание…</string>
+    <string name="step_contacts_progress">Уведомляем контакты…</string>
+    <string name="step_contacts_done">Контакты уведомлены</string>
+    <string name="step_contacts_failed">Не удалось уведомить контакты</string>
+    <string name="step_contacts_count">SMS отправлено: %1$d из %2$d</string>
+    <string name="step_contacts_failed_names">Не доставлено: %1$s</string>
+    <string name="step_contacts_none">Добавьте доверенные контакты в профиле.</string>
+    <string name="step_contacts_sms_app">Открыто приложение SMS — убедитесь, что вы нажали «Отправить».</string>
+    <string name="step_call_title">Вызов экстренной службы</string>
+    <string name="step_call_pending">Нажмите кнопку ниже, чтобы позвонить %1$s</string>
+    <string name="step_call_done">Набран номер %1$s</string>
+    <string name="status_offline">Нет интернета: использованы SMS, событие сохранено и будет синхронизировано позже.</string>
+    <string name="retry_send">Повторить отправку</string>
+    <string name="call_service">Позвонить %1$s — %2$s</string>
+    <string name="call_number">Позвонить %1$s</string>
+    <string name="open_on_map">Открыть на карте</string>
+    <string name="im_safe">Я в безопасности</string>
+    <string name="safe_title">Вы в безопасности?</string>
+    <string name="safe_text">Мы завершим тревогу. Можно сообщить доверенным контактам, что с вами всё в порядке.</string>
+    <string name="safe_notify">Сообщить контактам</string>
+    <string name="safe_silent">Завершить без SMS</string>
+
+    <!-- SMS texts -->
+    <string name="sms_header">SOS Көмек: %1$s нужна помощь!</string>
+    <string name="sms_reason">Причина: %1$s</string>
+    <string name="sms_time">Время: %1$s</string>
+    <string name="sms_coords">Координаты: %1$s</string>
+    <string name="sms_accuracy">" (±%1$d м)"</string>
+    <string name="sms_location_unavailable">Геолокация недоступна.</string>
+    <string name="sms_location_not_shared">Геолокация не передаётся.</string>
+    <string name="sms_blood">Группа крови: %1$s</string>
+    <string name="sms_medical">Мед. особенности: %1$s</string>
+    <string name="sms_phone">Тел.: %1$s</string>
+    <string name="sms_footer">Если не можете связаться — звоните 102 / 103 / 112.</string>
+    <string name="sms_unknown_user">Пользователю</string>
+    <string name="sms_safe">SOS Көмек: %1$s сообщает, что теперь в безопасности. Спасибо!</string>
+    <string name="sms_invite">Здравствуйте! %1$s указал(а) вас доверенным контактом в приложении SOS Көмек. Если получите от этого номера SOS-сообщение — свяжитесь с человеком и при необходимости звоните 102 / 103 / 112.</string>
+    <string name="verify_sms_text">SOS Көмек: код подтверждения %1$s. Никому его не сообщайте.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_sos">SOS-тревоги</string>
+    <string name="notif_sos_title">SOS отправлен</string>
+    <string name="notif_sos_text">Уведомлено контактов: %1$d из %2$d</string>
+
+    <!-- Map -->
+    <string name="map_title">Карта инцидентов</string>
+    <string name="report_incident">Сообщить</string>
+    <string name="cat_harassment">Харассмент</string>
+    <string name="cat_stalking">Преследование</string>
+    <string name="cat_physical_threat">Физическая угроза</string>
+    <string name="cat_unsafe_place">Небезопасное место</string>
+    <string name="cat_other">Другое</string>
+    <string name="period_today">Сегодня</string>
+    <string name="period_week">Неделя</string>
+    <string name="period_month">Месяц</string>
+    <string name="distance_km">%1$d км</string>
+    <string name="distance_any">Все</string>
+    <string name="map_count">Показано: %1$d. Места указаны приблизительно.</string>
+    <string name="approx_place">Приблизительное место (радиус ~%1$d м). Точный адрес не публикуется.</string>
+    <string name="demo_badge">Демо-данные</string>
+    <string name="demo_hint">Это примеры публикаций для демонстрации. Отключить их можно в Профиле → Настройки.</string>
+    <string name="demo_description">Пример публикации (демонстрационные данные).</string>
+    <string name="status_on_moderation">На модерации — видно только вам</string>
+    <string name="complain">Пожаловаться</string>
+    <string name="complaint_title">Жалоба на публикацию</string>
+    <string name="complaint_text">Публикация будет скрыта для вас и отправлена модераторам.</string>
+    <string name="complaint_false">Ложная информация</string>
+    <string name="complaint_dangerous">Опасный или оскорбительный текст</string>
+    <string name="complaint_personal">Содержит личные данные</string>
+    <string name="complaint_other">Другое</string>
+    <string name="complaint_sent">Спасибо! Жалоба отправлена на модерацию.</string>
+
+    <!-- Report -->
+    <string name="report_title">Анонимное сообщение</string>
+    <string name="report_anonymous">Сообщение публикуется анонимно. Ваше имя, телефон и точное место не сохраняются и не показываются.</string>
+    <string name="report_category">Категория</string>
+    <string name="report_place">Примерное место</string>
+    <string name="report_place_hint">Нажмите на карту. Мы округлим точку до ~400 м, чтобы защитить пострадавших.</string>
+    <string name="report_tap_map">Нажмите на карту, чтобы отметить место</string>
+    <string name="report_use_location">Использовать моё местоположение</string>
+    <string name="report_when">Дата и время</string>
+    <string name="report_description">Короткое описание</string>
+    <string name="report_description_hint">Что произошло? Не указывайте имена, телефоны и точные адреса.</string>
+    <string name="report_preview">Так будет опубликовано (личные данные скрыты):</string>
+    <string name="report_confirm_truth">Подтверждаю, что информация правдива. Ложные сообщения удаляются.</string>
+    <string name="report_submit">Опубликовать анонимно</string>
+    <string name="report_future">Дата и время не могут быть в будущем.</string>
+    <string name="report_published">Опубликовано</string>
+    <string name="report_published_text">Спасибо! Ваше сообщение анонимно появилось на карте и поможет другим людям.</string>
+    <string name="report_pii_removed">Персональные данные были автоматически удалены из текста.</string>
+    <string name="report_moderation">Отправлено на модерацию</string>
+    <string name="report_moderation_text">Сообщение будет проверено модератором и после этого станет видно другим.</string>
+    <string name="report_rejected">Не удалось опубликовать</string>
+    <string name="report_rate_limited">Слишком много сообщений. Попробуйте снова через %1$d мин.</string>
+    <string name="mod_too_short">Описание слишком короткое — добавьте несколько слов.</string>
+    <string name="mod_too_long">Описание слишком длинное.</string>
+    <string name="mod_meaningless">Описание не похоже на осмысленный текст.</string>
+    <string name="mod_only_personal">После удаления личных данных в тексте ничего не осталось. Опишите ситуацию без имён и адресов.</string>
+    <string name="mod_duplicate">Такое сообщение уже было отправлено.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_no_name">Без имени</string>
+    <string name="profile_encrypted">Личные и медицинские данные хранятся на устройстве в зашифрованном виде.</string>
+    <string name="profile_personal">Личные данные</string>
+    <string name="profile_medical">Медицинская информация (необязательно)</string>
+    <string name="photo">Фото</string>
+    <string name="photo_add">Добавить фото</string>
+    <string name="photo_change">Изменить фото</string>
+    <string name="photo_remove">Удалить фото</string>
+    <string name="photo_error">Не удалось загрузить фото</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="phone">Номер телефона</string>
+    <string name="phone_invalid">Проверьте номер. Пример: +7 701 234 56 78</string>
+    <string name="phone_verified">Номер подтверждён</string>
+    <string name="phone_not_verified">Номер не подтверждён</string>
+    <string name="verify_phone">Подтвердить номер</string>
+    <string name="blood_group">Группа крови</string>
+    <string name="medical_notes">Медицинские особенности и аллергии</string>
+    <string name="medical_notes_hint">Например: аллергия на пенициллин, диабет</string>
+    <string name="contacts_title">Доверенные контакты (%1$d из %2$d)</string>
+    <string name="contacts_hint">Получат SMS с причиной, временем и (с вашего согласия) местоположением.</string>
+    <string name="contact_add">Добавить контакт</string>
+    <string name="contact_new">Новый контакт</string>
+    <string name="contact_edit">Контакт</string>
+    <string name="contact_pick">Выбрать из телефонной книги</string>
+    <string name="contact_name">Имя</string>
+    <string name="contact_relation">Кем приходится</string>
+    <string name="rel_relative">Родственник</string>
+    <string name="rel_friend">Друг</string>
+    <string name="rel_colleague">Коллега</string>
+    <string name="rel_other">Другое</string>
+    <string name="contact_permissions">Разрешения для контакта</string>
+    <string name="contact_receive_sos">Получать SOS-уведомления</string>
+    <string name="contact_receive_sos_hint">Контакт получит SMS при тревоге</string>
+    <string name="contact_share_location">Получать мою геолокацию</string>
+    <string name="contact_share_location_hint">Координаты и ссылка на карту в SMS</string>
+    <string name="contact_invite">Отправить контакту SMS о том, что он добавлен</string>
+    <string name="contact_sos_off">SOS-уведомления выключены</string>
+    <string name="contact_sos_only">SOS без геолокации</string>
+    <string name="contact_sos_and_location">SOS и геолокация</string>
+    <string name="contact_err_name">Укажите имя</string>
+    <string name="contact_err_self">Это ваш собственный номер</string>
+    <string name="contact_err_duplicate">Этот номер уже добавлен</string>
+    <string name="contact_delete_title">Удалить контакт?</string>
+
+    <!-- Verification -->
+    <string name="verify_title">Подтверждение номера</string>
+    <string name="verify_info">Мы отправим SMS с 6-значным кодом на этот номер. SIM-карта с этим номером должна быть в этом телефоне. SMS тарифицируется по тарифу оператора.</string>
+    <string name="verify_send">Отправить код</string>
+    <string name="verify_resend">Отправить код ещё раз</string>
+    <string name="verify_resend_in">Повторная отправка через %1$d с</string>
+    <string name="verify_code">Код из SMS</string>
+    <string name="verify_confirm">Подтвердить</string>
+    <string name="verify_wrong">Неверный код. Осталось попыток: %1$d</string>
+    <string name="verify_expired">Код устарел. Запросите новый.</string>
+    <string name="verify_locked">Слишком много попыток. Запросите новый код.</string>
+    <string name="verify_send_failed">Не удалось отправить SMS. Проверьте SIM-карту и баланс.</string>
+    <string name="verify_need_sms">Для отправки кода нужно разрешение на SMS.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="language">Язык / Тіл</string>
+    <string name="theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="setting_location_consent">Передавать геолокацию при SOS</string>
+    <string name="setting_location_consent_hint">Значение по умолчанию в окне тревоги. Без согласия координаты не отправляются.</string>
+    <string name="setting_medical">Медданные в SOS «Медицинская помощь»</string>
+    <string name="setting_medical_hint">Добавлять группу крови и аллергии в SMS контактам</string>
+    <string name="setting_demo">Демо-данные на карте</string>
+    <string name="setting_demo_hint">Показывать примеры инцидентов</string>
+    <string name="wipe_all">Удалить все мои данные</string>
+    <string name="wipe_title">Удалить все данные?</string>
+    <string name="wipe_text">Профиль, фото, медицинская информация, контакты, история SOS и ваши сообщения на карте будут удалены с устройства без возможности восстановления.</string>
+
+    <!-- History -->
+    <string name="history_title">История SOS</string>
+    <string name="history_empty">Здесь будут ваши SOS-события.</string>
+    <string name="history_encrypted">История хранится только на этом устройстве в зашифрованном виде.</string>
+    <string name="history_clear">Очистить историю</string>
+    <string name="history_clear_title">Очистить историю?</string>
+    <string name="history_clear_text">Все SOS-события будут удалены без возможности восстановления.</string>
+    <string name="history_delete_one">Удалить событие?</string>
+    <string name="history_location">Место: %1$s</string>
+    <string name="history_loc_unavailable">недоступно</string>
+    <string name="history_loc_not_shared">не передавалось</string>
+    <string name="history_via_sms_app">Отправлено через приложение SMS</string>
+    <string name="history_resolved">Завершено: %1$s</string>
+    <string name="sync_synced">Синхронизировано с сервером</string>
+    <string name="sync_pending">Ожидает синхронизации</string>
+    <string name="sync_local">Сохранено только на устройстве</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Разрешения</string>
+    <string name="perm_location_title">Геолокация</string>
+    <string name="perm_location_desc">Чтобы при тревоге отправить близким, где вы находитесь, и показать инциденты рядом. Координаты передаются только с вашего согласия.</string>
+    <string name="perm_sms_title">SMS</string>
+    <string name="perm_sms_desc">Чтобы отправить SOS доверенным контактам даже без интернета. Приложение не читает ваши сообщения.</string>
+    <string name="perm_call_title">Звонки</string>
+    <string name="perm_call_desc">Чтобы одним нажатием позвонить в 102 или 103. Звонок начинается только после вашего нажатия.</string>
+    <string name="perm_notif_title">Уведомления</string>
+    <string name="perm_notif_desc">Чтобы показать статус тревоги и быстрый вызов экстренной службы.</string>
+    <string name="perm_granted">Разрешено</string>
+    <string name="perm_allow">Разрешить</string>
+    <string name="perm_allow_all">Разрешить всё</string>
+    <string name="perm_open_settings">Открыть настройки</string>
+
+    <!-- Onboarding -->
+    <string name="onb_welcome">Быстрая помощь при харассменте, угрозах, насилии и опасных ситуациях.</string>
+    <string name="onb_features">• Кнопка SOS: удерживайте 3 секунды — близкие получат SMS с причиной и местоположением.\n• Быстрый звонок в 102 и 103.\n• Анонимная карта инцидентов рядом с вами.\n• Данные зашифрованы и хранятся на вашем телефоне.</string>
+    <string name="onb_privacy_title">Ваша безопасность и приватность</string>
+    <string name="onb_privacy_summary">Мы храним личные и медицинские данные только на вашем устройстве в зашифрованном виде. Геолокация передаётся только с вашего явного согласия и только выбранным вами людям. Сообщения на карте публикуются анонимно.</string>
+    <string name="onb_accept">Я прочитал(а) и принимаю Политику конфиденциальности и Пользовательское соглашение</string>
+    <string name="onb_location_consent">Разрешаю передавать мою геолокацию доверенным контактам при SOS</string>
+    <string name="onb_location_consent_hint">Это можно изменить в настройках и при каждой тревоге.</string>
+    <string name="onb_permissions_intro">Перед первым использованием SOS разрешите доступ. Вот зачем нужно каждое разрешение:</string>
+    <string name="onb_permissions_later">Можно пропустить и выдать разрешения позже в Профиле → Разрешения. Без SMS и геолокации SOS работает ограниченно.</string>
+    <string name="onb_finish">Начать</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms">Пользовательское соглашение</string>
+    <string name="privacy_text">Политика конфиденциальности приложения «SOS Көмек»\n\nРедакция 1.0. Документ составлен с учётом Закона Республики Казахстан «О персональных данных и их защите».\n\n1. Какие данные мы обрабатываем\n• Профиль: имя, фамилия, номер телефона, фото (необязательно).\n• Медицинская информация (необязательно): группа крови, особенности, аллергии.\n• Доверенные контакты: имя, номер телефона, тип связи, настройки уведомлений.\n• История SOS: время, причина, координаты (если вы разрешили), результат отправки.\n• Анонимные сообщения на карте: категория, приблизительное место, дата, время и описание без личных данных.\n\n2. Где хранятся данные\nПрофиль, медицинская информация, контакты и история SOS хранятся только на вашем устройстве и шифруются алгоритмом AES-256-GCM с ключом в защищённом хранилище Android Keystore. Резервное копирование этих данных в облако отключено.\n\n3. Кому передаются данные\n• При SOS — только выбранным вами доверенным контактам по SMS: ваше имя, причина, время, номер телефона и — только с вашего согласия — координаты и ссылка на карту.\n• Медицинские данные добавляются в SMS только если вы включили это в настройках.\n• Если подключён сервер сервиса, на него по защищённому соединению HTTPS передаются только обезличенные данные: причина и время SOS, координаты (если разрешено), анонимные сообщения и жалобы. Имя, телефон и медицинские данные на сервер не передаются.\n• Мы не продаём и не передаём данные рекламным сетям.\n\n4. Геолокация\nКоординаты определяются только в момент тревоги, при отправке сообщения на карту или при показе инцидентов рядом. Передача координат контактам требует вашего явного согласия, которое можно отозвать в настройках или при каждой тревоге.\n\n5. Анонимные сообщения\nПеред публикацией из текста автоматически удаляются телефоны, e-mail, ссылки, имена и адреса. Точное место округляется примерно до 400 метров. Публикации проходят модерацию, на них можно пожаловаться.\n\n6. Ваши права\nВы можете в любой момент изменить или удалить данные профиля, удалить отдельные события или всю историю SOS, а также удалить все данные кнопкой «Удалить все мои данные». Удаление приложения также удаляет все данные с устройства.\n\n7. Дети\nЕсли вам меньше 16 лет, используйте приложение вместе с родителями или законными представителями.\n\n8. Изменения политики\nО существенных изменениях мы сообщим в приложении.</string>
+    <string name="terms_text">Пользовательское соглашение приложения «SOS Көмек»\n\n1. Назначение\n«SOS Көмек» — вспомогательный инструмент для быстрого оповещения доверенных людей и вызова экстренных служб. Приложение НЕ является экстренной службой и не заменяет полицию (102), скорую помощь (103), единую службу спасения (112) и другие официальные службы.\n\n2. Ограничения\n• Доставка SMS зависит от оператора, баланса, сигнала сети и настроек телефона. Мы не можем гарантировать доставку сообщений.\n• Точность геолокации зависит от устройства, GPS и окружения.\n• Приложение не совершает автоматические звонки нескольким людям. Звонок в экстренную службу вы подтверждаете сами.\n• Сообщения доверенным контактам тарифицируются вашим оператором.\n\n3. Ответственное использование\nЗапрещается:\n• намеренно отправлять ложные тревоги;\n• публиковать ложную, оскорбительную или опасную информацию;\n• указывать в сообщениях имена, адреса, телефоны и другие личные данные людей;\n• использовать приложение для преследования, травли или слежки за другими людьми.\nЗаведомо ложный вызов экстренных служб влечёт ответственность по законодательству Республики Казахстан.\n\n4. Модерация\nМы вправе скрывать и удалять публикации, нарушающие соглашение, и ограничивать отправку сообщений при злоупотреблениях.\n\n5. Согласие контактов\nДобавляя человека в доверенные контакты, вы подтверждаете, что он согласен получать от вас SOS-сообщения.\n\n6. Ответственность\nПриложение предоставляется «как есть». Разработчики не несут ответственности за последствия недоставки сообщений, неточной геолокации или действий третьих лиц.\n\n7. Принятие\nИспользуя приложение, вы принимаете это соглашение и Политику конфиденциальности.</string>
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="add">Қосу</string>
+    <string name="back">Артқа</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="close">Жабу</string>
+    <string name="configure">Баптау</string>
+    <string name="delete">Жою</string>
+    <string name="edit">Өзгерту</string>
+    <string name="next">Әрі қарай</string>
+    <string name="ok">ОК</string>
+    <string name="open">Ашу</string>
+    <string name="save">Сақтау</string>
+    <string name="saved">Сақталды</string>
+    <string name="send">Жіберу</string>
+    <string name="sending">Жіберілуде…</string>
+    <string name="not_specified">Көрсетілмеген</string>
+    <string name="filters">Сүзгілер</string>
+    <string name="my_location">Менің орным</string>
+
+    <!-- Tabs -->
+    <string name="tab_sos">SOS</string>
+    <string name="tab_map">Карта</string>
+    <string name="tab_profile">Профиль</string>
+
+    <!-- Disclaimers -->
+    <string name="disclaimer_short">Қосымша төтенше қызметтерді алмастырмайды. Өмірге қауіп төнсе, 112, 102 немесе 103 нөміріне қоңырау шалыңыз.</string>
+    <string name="disclaimer_full">«SOS Көмек» жақындарыңызды жылдам хабардар етуге көмектеседі, бірақ полицияны, жедел жәрдемді және басқа төтенше қызметтерді алмастырмайды. Өмірге және денсаулыққа қауіп төнсе, әрқашан 112, 102 немесе 103 нөміріне хабарласыңыз.</string>
+    <string name="version_disclaimer">SOS Көмек 1.0.0. Қосымша ресми төтенше қызмет емес және хабарламалардың жеткізілуіне кепілдік бермейді: бұл байланыс операторына, балансқа және желіге байланысты.</string>
+
+    <!-- SOS screen -->
+    <string name="sos_title">Көмек керек пе?</string>
+    <string name="sos_hold_hint">Батырманы 3 секунд басып тұрыңыз. Содан кейін себебін таңдаңыз немесе «Болдырмау» түймесін басыңыз.</string>
+    <string name="sos_hold_short">3 секунд\nбасып тұрыңыз</string>
+    <string name="sos_hold_countdown">Ұстаңыз… %1$d</string>
+    <string name="sos_sending">Жіберілуде…</string>
+    <string name="sos_a11y">SOS батырмасы. Дабыл жіберу үшін 3 секунд басып тұрыңыз</string>
+    <string name="sos_active_banner">Дабыл белсенді. Көмек мәртебесі экранын ашыңыз.</string>
+    <string name="sos_already_sent">Дабыл жіберіліп қойған. Мәртебені ашамыз.</string>
+    <string name="warn_no_contacts">Сенімді контактілер жоқ — SOS хабарламасын жіберетін адам жоқ.</string>
+    <string name="warn_permissions">Барлық рұқсат берілмеген: SOS үшін геолокация мен SMS қажет.</string>
+    <string name="quick_call_title">Төтенше нөмірлер</string>
+    <string name="quick_call_hint">Басқанда нөмір теру ашылады — қоңырауды өзіңіз растайсыз.</string>
+    <string name="service_police">Полиция</string>
+    <string name="service_ambulance">Жедел жәрдем</string>
+    <string name="service_fire">Өрт сөндіру қызметі</string>
+    <string name="service_112">Бірыңғай құтқару қызметі</string>
+    <string name="service_111">Отбасы, әйелдер мен балаларды қорғау</string>
+
+    <!-- Reason dialog -->
+    <string name="reason_title">Не болды?</string>
+    <string name="reason_subtitle">Себебін таңдаңыз — сенімді контактілер бірден хабарлама алады.</string>
+    <string name="reason_harassment">Харассмент немесе қудалау</string>
+    <string name="reason_harassment_hint">Полицияға 102 қоңырау шалу ұсынылады</string>
+    <string name="reason_violence">Қорқыту немесе күш көрсету</string>
+    <string name="reason_violence_hint">Полицияға 102 қоңырау шалу ұсынылады</string>
+    <string name="reason_medical">Медициналық көмек</string>
+    <string name="reason_medical_hint">Жедел жәрдемге 103 қоңырау шалу ұсынылады</string>
+    <string name="reason_share_location">Контактілерге қазіргі орнымды жіберу</string>
+    <string name="repeat_title">Дабыл жіберілген</string>
+    <string name="repeat_text">Сіз SOS-ты 5 минуттан аз уақыт бұрын жібердіңіз. Тағы бір дабыл жіберу керек пе?</string>
+    <string name="repeat_confirm">Иә, жіберу</string>
+
+    <!-- Status screen -->
+    <string name="status_title">Көмек мәртебесі</string>
+    <string name="status_none">Белсенді дабыл жоқ. Сіз қауіпсіздіктесіз.</string>
+    <string name="status_sending">Дабыл жіберілуде…</string>
+    <string name="status_sent">Дабыл жіберілді</string>
+    <string name="step_location_progress">Геолокация анықталуда…</string>
+    <string name="step_location_done">Геолокация алынды</string>
+    <string name="step_location_failed">Геолокация қолжетімсіз</string>
+    <string name="step_location_failed_hint">GPS-ті қосыңыз. Хабарлама координатсыз жіберілді.</string>
+    <string name="step_location_skipped">Геолокация жіберілмейді</string>
+    <string name="step_location_skipped_hint">Сіз орныңызды беруге келісім бермедіңіз.</string>
+    <string name="step_contacts_pending">Күтуде…</string>
+    <string name="step_contacts_progress">Контактілер хабардар етілуде…</string>
+    <string name="step_contacts_done">Контактілер хабардар етілді</string>
+    <string name="step_contacts_failed">Контактілерді хабардар ету мүмкін болмады</string>
+    <string name="step_contacts_count">SMS жіберілді: %2$d ішінен %1$d</string>
+    <string name="step_contacts_failed_names">Жеткізілмеді: %1$s</string>
+    <string name="step_contacts_none">Профильге сенімді контактілерді қосыңыз.</string>
+    <string name="step_contacts_sms_app">SMS қосымшасы ашылды — «Жіберу» батырмасын басқаныңызға көз жеткізіңіз.</string>
+    <string name="step_call_title">Төтенше қызметке қоңырау</string>
+    <string name="step_call_pending">%1$s нөміріне қоңырау шалу үшін төмендегі батырманы басыңыз</string>
+    <string name="step_call_done">%1$s нөмірі терілді</string>
+    <string name="status_offline">Интернет жоқ: SMS қолданылды, оқиға сақталды және кейін синхрондалады.</string>
+    <string name="retry_send">Қайта жіберу</string>
+    <string name="call_service">%1$s — %2$s қоңырау шалу</string>
+    <string name="call_number">%1$s қоңырау шалу</string>
+    <string name="open_on_map">Картадан ашу</string>
+    <string name="im_safe">Мен қауіпсіздіктемін</string>
+    <string name="safe_title">Сіз қауіпсіздіктесіз бе?</string>
+    <string name="safe_text">Дабылды аяқтаймыз. Сенімді контактілерге бәрі жақсы екенін хабарлауға болады.</string>
+    <string name="safe_notify">Контактілерге хабарлау</string>
+    <string name="safe_silent">SMS-сіз аяқтау</string>
+
+    <!-- SMS texts -->
+    <string name="sms_header">SOS Көмек: %1$s көмекке мұқтаж!</string>
+    <string name="sms_reason">Себебі: %1$s</string>
+    <string name="sms_time">Уақыты: %1$s</string>
+    <string name="sms_coords">Координаттар: %1$s</string>
+    <string name="sms_accuracy">" (±%1$d м)"</string>
+    <string name="sms_location_unavailable">Геолокация қолжетімсіз.</string>
+    <string name="sms_location_not_shared">Геолокация жіберілмейді.</string>
+    <string name="sms_blood">Қан тобы: %1$s</string>
+    <string name="sms_medical">Мед. ерекшеліктері: %1$s</string>
+    <string name="sms_phone">Тел.: %1$s</string>
+    <string name="sms_footer">Байланыса алмасаңыз — 102 / 103 / 112 нөміріне қоңырау шалыңыз.</string>
+    <string name="sms_unknown_user">Пайдаланушы</string>
+    <string name="sms_safe">SOS Көмек: %1$s қазір қауіпсіз екенін хабарлайды. Рақмет!</string>
+    <string name="sms_invite">Сәлеметсіз бе! %1$s сізді SOS Көмек қосымшасында сенімді контакт ретінде көрсетті. Осы нөмірден SOS хабарламасы келсе — адаммен хабарласыңыз және қажет болса 102 / 103 / 112 нөміріне қоңырау шалыңыз.</string>
+    <string name="verify_sms_text">SOS Көмек: растау коды %1$s. Оны ешкімге айтпаңыз.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_sos">SOS дабылдары</string>
+    <string name="notif_sos_title">SOS жіберілді</string>
+    <string name="notif_sos_text">Хабардар етілген контактілер: %2$d ішінен %1$d</string>
+
+    <!-- Map -->
+    <string name="map_title">Оқиғалар картасы</string>
+    <string name="report_incident">Хабарлау</string>
+    <string name="cat_harassment">Харассмент</string>
+    <string name="cat_stalking">Қудалау</string>
+    <string name="cat_physical_threat">Физикалық қауіп</string>
+    <string name="cat_unsafe_place">Қауіпті орын</string>
+    <string name="cat_other">Басқа</string>
+    <string name="period_today">Бүгін</string>
+    <string name="period_week">Апта</string>
+    <string name="period_month">Ай</string>
+    <string name="distance_km">%1$d км</string>
+    <string name="distance_any">Барлығы</string>
+    <string name="map_count">Көрсетілді: %1$d. Орындар шамамен көрсетілген.</string>
+    <string name="approx_place">Шамамен орын (радиусы ~%1$d м). Нақты мекенжай жарияланбайды.</string>
+    <string name="demo_badge">Демо-деректер</string>
+    <string name="demo_hint">Бұл көрсетуге арналған жарияланым үлгілері. Оларды Профиль → Баптаулар бөлімінде өшіруге болады.</string>
+    <string name="demo_description">Жарияланым үлгісі (демо-деректер).</string>
+    <string name="status_on_moderation">Модерацияда — тек сізге көрінеді</string>
+    <string name="complain">Шағымдану</string>
+    <string name="complaint_title">Жарияланымға шағым</string>
+    <string name="complaint_text">Жарияланым сізден жасырылады және модераторларға жіберіледі.</string>
+    <string name="complaint_false">Жалған ақпарат</string>
+    <string name="complaint_dangerous">Қауіпті немесе қорлайтын мәтін</string>
+    <string name="complaint_personal">Жеке деректер бар</string>
+    <string name="complaint_other">Басқа</string>
+    <string name="complaint_sent">Рақмет! Шағым модерацияға жіберілді.</string>
+
+    <!-- Report -->
+    <string name="report_title">Анонимді хабарлама</string>
+    <string name="report_anonymous">Хабарлама анонимді түрде жарияланады. Атыңыз, телефоныңыз және нақты орын сақталмайды және көрсетілмейді.</string>
+    <string name="report_category">Санат</string>
+    <string name="report_place">Шамамен орын</string>
+    <string name="report_place_hint">Картаны басыңыз. Зардап шеккендерді қорғау үшін нүктені ~400 м-ге дейін дөңгелектейміз.</string>
+    <string name="report_tap_map">Орынды белгілеу үшін картаны басыңыз</string>
+    <string name="report_use_location">Менің орнымды пайдалану</string>
+    <string name="report_when">Күні мен уақыты</string>
+    <string name="report_description">Қысқаша сипаттама</string>
+    <string name="report_description_hint">Не болды? Аттарды, телефондарды және нақты мекенжайларды көрсетпеңіз.</string>
+    <string name="report_preview">Былай жарияланады (жеке деректер жасырылған):</string>
+    <string name="report_confirm_truth">Ақпараттың шын екенін растаймын. Жалған хабарламалар жойылады.</string>
+    <string name="report_submit">Анонимді жариялау</string>
+    <string name="report_future">Күні мен уақыты болашақта болмауы керек.</string>
+    <string name="report_published">Жарияланды</string>
+    <string name="report_published_text">Рақмет! Хабарламаңыз картада анонимді түрде пайда болды және басқаларға көмектеседі.</string>
+    <string name="report_pii_removed">Мәтіннен жеке деректер автоматты түрде жойылды.</string>
+    <string name="report_moderation">Модерацияға жіберілді</string>
+    <string name="report_moderation_text">Хабарламаны модератор тексереді, содан кейін ол басқаларға көрінеді.</string>
+    <string name="report_rejected">Жариялау мүмкін болмады</string>
+    <string name="report_rate_limited">Хабарламалар тым көп. %1$d мин кейін қайталап көріңіз.</string>
+    <string name="mod_too_short">Сипаттама тым қысқа — бірнеше сөз қосыңыз.</string>
+    <string name="mod_too_long">Сипаттама тым ұзын.</string>
+    <string name="mod_meaningless">Сипаттама мағыналы мәтінге ұқсамайды.</string>
+    <string name="mod_only_personal">Жеке деректерді жойғаннан кейін мәтінде ештеңе қалмады. Жағдайды аттар мен мекенжайларсыз сипаттаңыз.</string>
+    <string name="mod_duplicate">Мұндай хабарлама бұрын жіберілген.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_no_name">Атауы жоқ</string>
+    <string name="profile_encrypted">Жеке және медициналық деректер құрылғыда шифрланған түрде сақталады.</string>
+    <string name="profile_personal">Жеке деректер</string>
+    <string name="profile_medical">Медициналық ақпарат (міндетті емес)</string>
+    <string name="photo">Фото</string>
+    <string name="photo_add">Фото қосу</string>
+    <string name="photo_change">Фотоны өзгерту</string>
+    <string name="photo_remove">Фотоны жою</string>
+    <string name="photo_error">Фотоны жүктеу мүмкін болмады</string>
+    <string name="first_name">Аты</string>
+    <string name="last_name">Тегі</string>
+    <string name="phone">Телефон нөмірі</string>
+    <string name="phone_invalid">Нөмірді тексеріңіз. Мысалы: +7 701 234 56 78</string>
+    <string name="phone_verified">Нөмір расталды</string>
+    <string name="phone_not_verified">Нөмір расталмаған</string>
+    <string name="verify_phone">Нөмірді растау</string>
+    <string name="blood_group">Қан тобы</string>
+    <string name="medical_notes">Медициналық ерекшеліктер мен аллергиялар</string>
+    <string name="medical_notes_hint">Мысалы: пенициллинге аллергия, диабет</string>
+    <string name="contacts_title">Сенімді контактілер (%2$d ішінен %1$d)</string>
+    <string name="contacts_hint">Себебі, уақыты және (келісіміңізбен) орныңыз көрсетілген SMS алады.</string>
+    <string name="contact_add">Контакт қосу</string>
+    <string name="contact_new">Жаңа контакт</string>
+    <string name="contact_edit">Контакт</string>
+    <string name="contact_pick">Телефон кітапшасынан таңдау</string>
+    <string name="contact_name">Аты</string>
+    <string name="contact_relation">Кім болып келеді</string>
+    <string name="rel_relative">Туысы</string>
+    <string name="rel_friend">Досы</string>
+    <string name="rel_colleague">Әріптесі</string>
+    <string name="rel_other">Басқа</string>
+    <string name="contact_permissions">Контакт үшін рұқсаттар</string>
+    <string name="contact_receive_sos">SOS хабарламаларын алу</string>
+    <string name="contact_receive_sos_hint">Дабыл кезінде контакт SMS алады</string>
+    <string name="contact_share_location">Менің геолокациямды алу</string>
+    <string name="contact_share_location_hint">SMS-те координаттар және карта сілтемесі</string>
+    <string name="contact_invite">Контактіге қосылғаны туралы SMS жіберу</string>
+    <string name="contact_sos_off">SOS хабарламалары өшірулі</string>
+    <string name="contact_sos_only">Геолокациясыз SOS</string>
+    <string name="contact_sos_and_location">SOS және геолокация</string>
+    <string name="contact_err_name">Атын көрсетіңіз</string>
+    <string name="contact_err_self">Бұл өз нөміріңіз</string>
+    <string name="contact_err_duplicate">Бұл нөмір қосылып қойған</string>
+    <string name="contact_delete_title">Контактіні жою керек пе?</string>
+
+    <!-- Verification -->
+    <string name="verify_title">Нөмірді растау</string>
+    <string name="verify_info">Осы нөмірге 6 таңбалы коды бар SMS жібереміз. Осы нөмірдің SIM-картасы осы телефонда болуы керек. SMS оператор тарифі бойынша төленеді.</string>
+    <string name="verify_send">Код жіберу</string>
+    <string name="verify_resend">Кодты қайта жіберу</string>
+    <string name="verify_resend_in">Қайта жіберу %1$d с кейін</string>
+    <string name="verify_code">SMS-тегі код</string>
+    <string name="verify_confirm">Растау</string>
+    <string name="verify_wrong">Код қате. Қалған әрекет саны: %1$d</string>
+    <string name="verify_expired">Кодтың мерзімі өтті. Жаңасын сұраңыз.</string>
+    <string name="verify_locked">Әрекеттер тым көп. Жаңа код сұраңыз.</string>
+    <string name="verify_send_failed">SMS жіберу мүмкін болмады. SIM-картаны және балансты тексеріңіз.</string>
+    <string name="verify_need_sms">Кодты жіберу үшін SMS рұқсаты қажет.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Баптаулар</string>
+    <string name="language">Тіл / Язык</string>
+    <string name="theme">Тақырып</string>
+    <string name="theme_system">Жүйелік</string>
+    <string name="theme_light">Жарық</string>
+    <string name="theme_dark">Қараңғы</string>
+    <string name="setting_location_consent">SOS кезінде геолокацияны жіберу</string>
+    <string name="setting_location_consent_hint">Дабыл терезесіндегі әдепкі мән. Келісімсіз координаттар жіберілмейді.</string>
+    <string name="setting_medical">«Медициналық көмек» SOS-та меддеректер</string>
+    <string name="setting_medical_hint">Контактілерге SMS-ке қан тобы мен аллергияларды қосу</string>
+    <string name="setting_demo">Картадағы демо-деректер</string>
+    <string name="setting_demo_hint">Оқиға үлгілерін көрсету</string>
+    <string name="wipe_all">Барлық деректерімді жою</string>
+    <string name="wipe_title">Барлық деректерді жою керек пе?</string>
+    <string name="wipe_text">Профиль, фото, медициналық ақпарат, контактілер, SOS тарихы және картадағы хабарламаларыңыз құрылғыдан қалпына келтіру мүмкіндігінсіз жойылады.</string>
+
+    <!-- History -->
+    <string name="history_title">SOS тарихы</string>
+    <string name="history_empty">Мұнда сіздің SOS оқиғаларыңыз болады.</string>
+    <string name="history_encrypted">Тарих тек осы құрылғыда шифрланған түрде сақталады.</string>
+    <string name="history_clear">Тарихты тазалау</string>
+    <string name="history_clear_title">Тарихты тазалау керек пе?</string>
+    <string name="history_clear_text">Барлық SOS оқиғалары қалпына келтіру мүмкіндігінсіз жойылады.</string>
+    <string name="history_delete_one">Оқиғаны жою керек пе?</string>
+    <string name="history_location">Орны: %1$s</string>
+    <string name="history_loc_unavailable">қолжетімсіз</string>
+    <string name="history_loc_not_shared">жіберілмеген</string>
+    <string name="history_via_sms_app">SMS қосымшасы арқылы жіберілді</string>
+    <string name="history_resolved">Аяқталды: %1$s</string>
+    <string name="sync_synced">Сервермен синхрондалды</string>
+    <string name="sync_pending">Синхрондауды күтуде</string>
+    <string name="sync_local">Тек құрылғыда сақталған</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Рұқсаттар</string>
+    <string name="perm_location_title">Геолокация</string>
+    <string name="perm_location_desc">Дабыл кезінде жақындарыңызға қайда екеніңізді жіберу және жақын маңдағы оқиғаларды көрсету үшін. Координаттар тек сіздің келісіміңізбен беріледі.</string>
+    <string name="perm_sms_title">SMS</string>
+    <string name="perm_sms_desc">Интернет болмаса да сенімді контактілерге SOS жіберу үшін. Қосымша сіздің хабарламаларыңызды оқымайды.</string>
+    <string name="perm_call_title">Қоңыраулар</string>
+    <string name="perm_call_desc">102 немесе 103 нөміріне бір басумен қоңырау шалу үшін. Қоңырау тек сіз басқаннан кейін басталады.</string>
+    <string name="perm_notif_title">Хабарландырулар</string>
+    <string name="perm_notif_desc">Дабыл мәртебесін және төтенше қызметке жылдам қоңырауды көрсету үшін.</string>
+    <string name="perm_granted">Рұқсат берілді</string>
+    <string name="perm_allow">Рұқсат беру</string>
+    <string name="perm_allow_all">Барлығына рұқсат беру</string>
+    <string name="perm_open_settings">Баптауларды ашу</string>
+
+    <!-- Onboarding -->
+    <string name="onb_welcome">Харассмент, қорқыту, зорлық-зомбылық және қауіпті жағдайларда жылдам көмек.</string>
+    <string name="onb_features">• SOS батырмасы: 3 секунд басып тұрыңыз — жақындарыңыз себебі мен орныңыз көрсетілген SMS алады.\n• 102 және 103 нөмірлеріне жылдам қоңырау.\n• Жақын маңдағы оқиғалардың анонимді картасы.\n• Деректер шифрланған және телефоныңызда сақталады.</string>
+    <string name="onb_privacy_title">Сіздің қауіпсіздігіңіз бен құпиялылығыңыз</string>
+    <string name="onb_privacy_summary">Жеке және медициналық деректерді тек құрылғыңызда шифрланған түрде сақтаймыз. Геолокация тек сіздің нақты келісіміңізбен және тек өзіңіз таңдаған адамдарға беріледі. Картадағы хабарламалар анонимді түрде жарияланады.</string>
+    <string name="onb_accept">Құпиялылық саясатын және Пайдаланушы келісімін оқыдым және қабылдаймын</string>
+    <string name="onb_location_consent">SOS кезінде геолокациямды сенімді контактілерге беруге рұқсат етемін</string>
+    <string name="onb_location_consent_hint">Мұны баптауларда және әр дабыл кезінде өзгертуге болады.</string>
+    <string name="onb_permissions_intro">SOS-ты алғаш қолданбас бұрын қолжетімділікке рұқсат беріңіз. Әр рұқсат не үшін қажет:</string>
+    <string name="onb_permissions_later">Өткізіп жіберіп, рұқсаттарды кейін Профиль → Рұқсаттар бөлімінде беруге болады. SMS пен геолокациясыз SOS шектеулі жұмыс істейді.</string>
+    <string name="onb_finish">Бастау</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">Құпиялылық саясаты</string>
+    <string name="terms">Пайдаланушы келісімі</string>
+    <string name="privacy_text">«SOS Көмек» қосымшасының құпиялылық саясаты\n\n1.0 редакциясы. Құжат Қазақстан Республикасының «Дербес деректер және оларды қорғау туралы» Заңы ескеріле отырып жасалды.\n\n1. Қандай деректерді өңдейміз\n• Профиль: аты, тегі, телефон нөмірі, фото (міндетті емес).\n• Медициналық ақпарат (міндетті емес): қан тобы, ерекшеліктер, аллергиялар.\n• Сенімді контактілер: аты, телефон нөмірі, байланыс түрі, хабарландыру баптаулары.\n• SOS тарихы: уақыты, себебі, координаттар (рұқсат берсеңіз), жіберу нәтижесі.\n• Картадағы анонимді хабарламалар: санат, шамамен орын, күні, уақыты және жеке деректерсіз сипаттама.\n\n2. Деректер қайда сақталады\nПрофиль, медициналық ақпарат, контактілер және SOS тарихы тек құрылғыңызда сақталады және Android Keystore қорғалған қоймасындағы кілтпен AES-256-GCM алгоритмі арқылы шифрланады. Бұл деректерді бұлтқа сақтық көшірмелеу өшірілген.\n\n3. Деректер кімге беріледі\n• SOS кезінде — тек өзіңіз таңдаған сенімді контактілерге SMS арқылы: атыңыз, себебі, уақыты, телефон нөміріңіз және — тек келісіміңізбен — координаттар мен карта сілтемесі.\n• Медициналық деректер SMS-ке тек баптауларда қоссаңыз ғана қосылады.\n• Қызмет сервері қосылған болса, оған қорғалған HTTPS байланысы арқылы тек иесіздендірілген деректер жіберіледі: SOS себебі мен уақыты, координаттар (рұқсат болса), анонимді хабарламалар мен шағымдар. Аты, телефон және медициналық деректер серверге берілмейді.\n• Біз деректерді сатпаймыз және жарнама желілеріне бермейміз.\n\n4. Геолокация\nКоординаттар тек дабыл кезінде, картаға хабарлама жібергенде немесе жақын маңдағы оқиғаларды көрсеткенде анықталады. Координаттарды контактілерге беру сіздің нақты келісіміңізді талап етеді, оны баптауларда немесе әр дабыл кезінде қайтарып алуға болады.\n\n5. Анонимді хабарламалар\nЖарияламас бұрын мәтіннен телефондар, e-mail, сілтемелер, аттар мен мекенжайлар автоматты түрде жойылады. Нақты орын шамамен 400 метрге дейін дөңгелектенеді. Жарияланымдар модерациядан өтеді, оларға шағымдануға болады.\n\n6. Сіздің құқықтарыңыз\nКез келген уақытта профиль деректерін өзгертуге немесе жоюға, жекелеген оқиғаларды немесе бүкіл SOS тарихын жоюға, сондай-ақ «Барлық деректерімді жою» батырмасымен барлық деректерді жоюға болады. Қосымшаны жою да құрылғыдағы барлық деректерді жояды.\n\n7. Балалар\nЕгер сіз 16 жасқа толмаған болсаңыз, қосымшаны ата-анаңызбен немесе заңды өкілдеріңізбен бірге пайдаланыңыз.\n\n8. Саясаттың өзгеруі\nМаңызды өзгерістер туралы қосымшада хабарлаймыз.</string>
+    <string name="terms_text">«SOS Көмек» қосымшасының пайдаланушы келісімі\n\n1. Мақсаты\n«SOS Көмек» — сенімді адамдарды жылдам хабардар етуге және төтенше қызметтерді шақыруға арналған көмекші құрал. Қосымша төтенше қызмет ЕМЕС және полицияны (102), жедел жәрдемді (103), бірыңғай құтқару қызметін (112) және басқа ресми қызметтерді алмастырмайды.\n\n2. Шектеулер\n• SMS жеткізілуі операторға, балансқа, желі сигналына және телефон баптауларына байланысты. Хабарламалардың жеткізілуіне кепілдік бере алмаймыз.\n• Геолокацияның дәлдігі құрылғыға, GPS-ке және қоршаған ортаға байланысты.\n• Қосымша бірнеше адамға автоматты түрде қоңырау шалмайды. Төтенше қызметке қоңырауды өзіңіз растайсыз.\n• Сенімді контактілерге хабарламалар операторыңыздың тарифі бойынша төленеді.\n\n3. Жауапкершілікпен пайдалану\nТыйым салынады:\n• әдейі жалған дабыл жіберуге;\n• жалған, қорлайтын немесе қауіпті ақпарат жариялауға;\n• хабарламаларда адамдардың аттарын, мекенжайларын, телефондарын және басқа жеке деректерін көрсетуге;\n• қосымшаны басқа адамдарды қудалау, қорлау немесе аңду үшін пайдалануға.\nТөтенше қызметтерді көрінеу жалған шақыру Қазақстан Республикасының заңнамасы бойынша жауапкершілікке әкеледі.\n\n4. Модерация\nКелісімді бұзатын жарияланымдарды жасыруға және жоюға, сондай-ақ теріс пайдаланған жағдайда хабарлама жіберуді шектеуге құқылымыз.\n\n5. Контактілердің келісімі\nАдамды сенімді контактілерге қосу арқылы оның сізден SOS хабарламаларын алуға келісетінін растайсыз.\n\n6. Жауапкершілік\nҚосымша «сол күйінде» ұсынылады. Әзірлеушілер хабарламалардың жеткізілмеуінің, геолокацияның дәл болмауының немесе үшінші тұлғалардың әрекеттерінің салдары үшін жауап бермейді.\n\n7. Қабылдау\nҚосымшаны пайдалана отырып, сіз осы келісімді және Құпиялылық саясатын қабылдайсыз.</string>
+</resources>
